@@ -27,8 +27,8 @@ This project is a simple chat server that allows multiple clients to connect and
 
 1. Compile the server and client programs:
     ```sh
-    g++ -o server server.c -lpthread
-    g++ -o client client.c -lpthread
+    g++ -o server server.cpp -lpthread
+    g++ -o client client.cpp -lpthread
     ```
 
 2. Start the server:
@@ -43,12 +43,4 @@ This project is a simple chat server that allows multiple clients to connect and
 
 4. Repeat step 3 for additional clients.
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
 
-## Contact
-For any questions or suggestions, please open an issue or contact the project maintainer.
